@@ -1,6 +1,6 @@
 # Recoinition, a tool for coin recognition
 
-1- Overview
+# 1- Overview
 The objective here is to identify a coin based on a phone-camera picture.
 
 There are a few difficulties that make this challenge a little bit more complicated than bill or form identificaiton:
