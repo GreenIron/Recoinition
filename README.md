@@ -30,12 +30,12 @@ image here
   * coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a stripe to make these characters follow a horizontal line
 image here
   
-* Processing: the idea here is to extract 
- * OCR: a neural network is used . D
- 
+* Processing:the idea here is to extract 
+ * Feature generation
+ * OCR: a neural network is used to read the different characters on the coin (original and stripe version)
  * Feature registration
- * Quality assessment
-* Classification
+ * Classification
+   * OCR results and features are 
 
 SVM
 
