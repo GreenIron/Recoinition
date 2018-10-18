@@ -15,28 +15,38 @@ On the good side, the coins are well more structured than random images.
 TODO:
 
 
-2- Algorithm
+# 2- Algorithm
 * Image Preprocessing
-  * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
-  * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
-  * coin contour extraction a circle Hough transform
-* Processing
-* OCR
-
-* Feature registration
-
-
+ * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
+  
+image here
+  
+ * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
+ 
+image here
+ 
+ * coin contour extraction a circle Hough transform
+image here
+ 
+ * coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a strip to make these character follow a horizontal line
+  
+image here
+  
+* Processing: the idea here is to extract 
+ * OCR
+ * Feature registration
+ * Quality assessment
 * Classification
 
 SVM
 
 
-3- Results
+# 3- Results
 
 
 
 
-3- References
+# 4- References
 
 
 
