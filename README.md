@@ -13,27 +13,26 @@ There are a few difficulties that make this challenge a little bit more complica
 On the good side, the coins are well more structured than random images.
 
 TODO:
+* improve network to get better performance on OCR
 
 
 # 2- Algorithm
 * Image Preprocessing
- * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
-  
+  * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
 image here
   
- * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
- 
+  * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
 image here
  
- * coin contour extraction a circle Hough transform
+  * coin contour extraction a circle Hough transform
 image here
  
- * coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a strip to make these character follow a horizontal line
-  
+  * coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a stripe to make these characters follow a horizontal line
 image here
   
 * Processing: the idea here is to extract 
- * OCR
+ * OCR: a neural network is used . D
+ 
  * Feature registration
  * Quality assessment
 * Classification
