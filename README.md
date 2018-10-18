@@ -27,7 +27,7 @@ image here
   * Coin contour extraction a circle Hough transform
 image here
  
-  * Coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a stripe to make these characters follow a horizontal line. This corresponds to the diffeomorphism in cartesian frame (x=r \times \cos \theta, y=\r \times \sin \theta)->(x=r, x=\theta).
+  * Coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a stripe to make these characters follow a horizontal line. This corresponds to the diffeomorphism in cartesian frame ($x=r \times \cos \theta, y=\r \times \sin \theta$)->(x=r, x=\theta).
 image here
   
 * Feature generation
