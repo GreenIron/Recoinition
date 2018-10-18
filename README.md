@@ -15,10 +15,20 @@ On the good side, the coins are well more structured than random images.
 TODO:
 
 
-
 2- Algorithm
+* Image Preprocessing
+  * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
+  * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
+  * coin contour extraction a circle Hough transform
+* Processing
+* OCR
+
+* Feature registration
 
 
+* Classification
+
+SVM
 
 
 3- Results
