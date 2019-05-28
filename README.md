@@ -14,9 +14,11 @@ TODO:
 * improve network to get better performance on OCR
 
 # 2- Algorithm
+* Assuming the raw image follows coin standards
+![alt text](https://github.com/GreenIron/Recoinition/blob/master/1.png)
 * Image Preprocessing
   * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
-image here  
+
   * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
 image here 
   * Coin contour extraction a circle Hough transform
