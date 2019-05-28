@@ -21,7 +21,6 @@ TODO:
   * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
   
 ![coin avers](https://github.com/GreenIron/Recoinition/blob/master/5)
-![coin revers](https://github.com/GreenIron/Recoinition/blob/master/4)
   * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
   * Coin contour extraction a circle Hough transform
   
