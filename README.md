@@ -36,14 +36,10 @@ TODO:
    * Image feature registration based on a library of features scraped from the internet. This produces a first vector of features with associated probabilities
    => At this point we have a first vector of features with matching scores
 * Tex recognition
- * Letter and words detection
- * OCR: a neural network is used to read the different characters on the coin (original and stripe version). This produces a list of texts that have been identified in different areas of the coin
+   * Letter and words detection
+    OCR: a neural network is used to read the different characters on the coin (original and stripe version). This produces a list of texts that have been identified in different areas of the coin
  => we end up with a second vector of "features" that can be used for coin classification
 * Classification: previously extracted features are compared with the existing library of coins (extracted from the web via web-scraping) 
-
-# 3- Results
-
-
 
 # 4- References
 * Open CV
