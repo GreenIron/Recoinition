@@ -18,13 +18,15 @@ TODO:
 ![base coin image](https://github.com/GreenIron/Recoinition/blob/master/1)
 * Image Preprocessing
   * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
-
+![coin avers](https://github.com/GreenIron/Recoinition/blob/master/5)
+![coin revers](https://github.com/GreenIron/Recoinition/blob/master/4)
   * Colors are altered in a HSL (hue, saturation, lightness) color space. Coin color can be more easily discriminated from background color in HSL rather than in RGB.
-image here 
   * Coin contour extraction a circle Hough transform
-image here 
+![contour revers](https://github.com/GreenIron/Recoinition/blob/master/2)
+![contour revers](https://github.com/GreenIron/Recoinition/blob/master/3)
   * Coin to stripe transform. Since some characters are engraved following the coin circumference, the coin is transformed into a stripe to make these characters follow a horizontal line. This corresponds to the diffeomorphism in cartesian frame (x=r*cos theta, y=r*sin theta)->(x=r, x=theta).
-image here  
+![contour revers](https://github.com/GreenIron/Recoinition/blob/master/6)
+![contour revers](https://github.com/GreenIron/Recoinition/blob/master/7)
 * Feature generation
  * "Classic" feature extraction
    * Image feature matching using OpenCV's ORB algorithm (Oriented FAST and Rotated BRIEF)
