@@ -15,7 +15,7 @@ TODO:
 
 # 2- Algorithm
 * Assuming the raw image follows coin standards
-![base coin image](https://github.com/GreenIron/Recoinition/blob/master/1 | width=100)
+![base coin image](https://github.com/GreenIron/Recoinition/blob/master/1)<!-- .element height="50%" width="50%" -->
 * Image Preprocessing
   * Median-filter like (e.g. anisotropic gradient, guided-filter, bilateral-filter)
 ![coin avers](https://github.com/GreenIron/Recoinition/blob/master/5)
