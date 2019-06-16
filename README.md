@@ -11,7 +11,10 @@ The objective here is to identify a coin based on a phone-camera picture. There 
 On the good side, the coins are well more structured and studied than random images. For example a list of expected fields are supposed to appear on every single coin.
 
 TODO:
-* improve network to get better performance on OCR
+* add feature matching
+* add letter extractor
+* add coin letter generator to train the OCR engine
+* add OCR engine demonstrator
 
 # 2- Algorithm
 * Assuming the raw image follows coin standards
