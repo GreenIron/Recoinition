@@ -11,10 +11,10 @@ The objective here is to identify a coin based on a phone-camera picture. There 
 On the good side, the coins are well more structured and studied than random images. For example a list of expected fields are supposed to appear on every single coin.
 
 TODO:
-* add feature matching
-* add letter extractor
-* add coin letter generator to train the OCR engine
-* add OCR engine demonstrator
+* upload feature matching
+* upload letter extractor
+* upload coin letter generator to train the OCR engine
+* upload OCR engine demonstrator
 
 # 2- Algorithm
 * Assuming the raw image follows coin standards
@@ -40,7 +40,7 @@ TODO:
    => At this point we have a first vector of features with matching scores
 * Tex recognition
    * Letter and words detection
-    OCR: a neural network is used to read the different characters on the coin (original and stripe version). This produces a list of texts that have been identified in different areas of the coin
+    OCR: a neural network is used to read the different characters on the coin (original and stripe version). This produces a list of texts that have been identified in different areas of the coin. Please note that I've tried to use existing OCR solutions, with very poor results. One of the problems might be that the letters are a unique depth/shadow pattern because they are 3D printed)
  => we end up with a second vector of "features" that can be used for coin classification
 * Classification: previously extracted features are compared with the existing library of coins (extracted from the web via web-scraping) 
 
