@@ -38,10 +38,10 @@ TODO:
    * Image feature matching using OpenCV's ORB algorithm (Oriented FAST and Rotated BRIEF)
    * Image feature registration based on a library of features scraped from the internet. This produces a first vector of features with associated probabilities
    => At this point we have a first vector of features with matching scores
-* Tex recognition
+* Text recognition
    * Letter and words detection
-    OCR: a neural network is used to read the different characters on the coin (original and stripe version). This produces a list of texts that have been identified in different areas of the coin. Please note that I've tried to use existing OCR solutions, with very poor results. One of the problems might be that the letters are a unique depth/shadow pattern because they are 3D printed)
- => we end up with a second vector of "features" that can be used for coin classification
+    OCR: a neural network (CNN based on tensorflow) is used to read the different characters on the coin (original and stripe version). The training set is generated from a open-source fonts and using random rotations, alterations, speckle... Once the OCR is trained and applied, it produces a list of texts that have been identified in different areas of the coin. Please note that I've tried to use existing OCR solutions, with very poor results. One of the problems might be that the letters are a unique depth/shadow pattern because they are 3D printed)
+ => we end up with a second vector of words/features
 * Classification: previously extracted features are compared with the existing library of coins (extracted from the web via web-scraping) 
 
 # 4- References
